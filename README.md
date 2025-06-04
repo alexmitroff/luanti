@@ -1,29 +1,29 @@
 <h1 align="center">
-  <img src="snap/gui/minetest.svg" alt="Minetest">
+  <img src="snap/gui/luanti.svg" alt="Luanti">
 </h1>
 
-<p align="center"><b>This is the snap for Minetest</b>. It is a community-maintained package to easily install Minetest on Ubuntu, Fedora, Debian and other major Linux distributions. It is available in the Snap Store, Ubuntu Software, and a number of other applications.</p>
+<p align="center"><b>This is the snap for Luanti</b>. It is a community-maintained package to easily install Luanti on Ubuntu, Fedora, Debian and other major Linux distributions. It is available in the Snap Store, Ubuntu Software, and a number of other applications.</p>
 
 <p align="center"><i>"Open source voxel game engine."</i></p>
 
 <p align="center">
-<a href="https://snapcraft.io/minetest"><img src="https://snapcraft.io/minetest/badge.svg" alt="Snap Status"></a>
-<a href="https://github.com/snapcrafters/minetest/actions/workflows/sync-upstream.yml"><img src="https://github.com/snapcrafters/minetest/actions/workflows/sync-upstream.yml/badge.svg"></a>
-<a href="https://github.com/snapcrafters/minetest/actions/workflows/release-to-candidate.yml"><img src="https://github.com/snapcrafters/minetest/actions/workflows/release-to-candidate.yml/badge.svg"></a>
-<a href="https://github.com/snapcrafters/minetest/actions/workflows/promote-to-stable.yml"><img src="https://github.com/snapcrafters/minetest/actions/workflows/promote-to-stable.yml/badge.svg"></a>
+<a href="https://snapcraft.io/luanti"><img src="https://snapcraft.io/luanti/badge.svg" alt="Snap Status"></a>
+<a href="https://github.com/snapcrafters/luanti/actions/workflows/sync-upstream.yml"><img src="https://github.com/snapcrafters/luanti/actions/workflows/sync-upstream.yml/badge.svg"></a>
+<a href="https://github.com/snapcrafters/luanti/actions/workflows/release-to-candidate.yml"><img src="https://github.com/snapcrafters/luanti/actions/workflows/release-to-candidate.yml/badge.svg"></a>
+<a href="https://github.com/snapcrafters/luanti/actions/workflows/promote-to-stable.yml"><img src="https://github.com/snapcrafters/luanti/actions/workflows/promote-to-stable.yml/badge.svg"></a>
 </p>
 
 ## Install
 
 ```shell
-snap install minetest
+snap install luanti
 ```
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
 <p align="center">Published for <img src="https://raw.githubusercontent.com/anythingcodes/slack-emoji-for-techies/gh-pages/emoji/tux.png" align="top" width="24" /> with :gift_heart: by Snapcrafters</p>
 
-![minetest](https://dashboard.snapcraft.io/site_media/appmedia/2018/01/Screenshot_from_2018-01-14_18-38-01.png "minetest")
+![luanti](https://dashboard.snapcraft.io/site_media/appmedia/2018/01/Screenshot_from_2018-01-14_18-38-01.png "luanti")
 
 ## How to contribute to this snap
 
@@ -41,7 +41,7 @@ If this is your first time contributing to this snap, you first need to set up y
 
    ```shell
    git remote rename origin myfork
-   git remote add snapcrafters https://github.com/snapcrafters/minetest.git
+   git remote add snapcrafters https://github.com/snapcrafters/luanti.git
    git fetch --all
    ```
 
@@ -77,9 +77,9 @@ Now that your git metadata has been updated you are ready to create a bugfix bra
 4. Then, [open up a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) from your `my-bugfix-branch` to the `snapcrafters/candidate` branch.
 5. Once you've opened the pull request, it will automatically trigger the build-test action that will launch a build of the snap. You can watch the progress of the snap build from your pull request (Show all checks -> Details). Once the snap build has completed, you can find the built snap (to test with) under "Artifacts".
 6. Someone from the team will review the open pull request and either merge it or start a discussion with you with additional changes or clarification needed.
-7. Once the pull request has been merged into the stable branch, a GitHub action will rebuild the snap using your changes and publish it to the [Snap Store](https://snapcraft.io/minetest) into the `candidate` channel. After sufficient testing of the snap from the candidate channel, one of the maintainers or administrators will promote the snap to the stable branch in the Snap Store.
+7. Once the pull request has been merged into the stable branch, a GitHub action will rebuild the snap using your changes and publish it to the [Snap Store](https://snapcraft.io/luanti) into the `candidate` channel. After sufficient testing of the snap from the candidate channel, one of the maintainers or administrators will promote the snap to the stable branch in the Snap Store.
 
 ## License
 
 - The license of the build files in this repository is MIT.
-- The license of Minetest itself is LGPL-2.1+
+- The license of Luanti itself is LGPL-2.1+
